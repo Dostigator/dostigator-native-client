@@ -6,6 +6,7 @@ import TabBarIcon from '../components/TabBarIcon';
 import TodayTodoScreen from '../screens/TodayTodoScreen';
 import CalendarScreen from '../screens/CalendarScreen';
 import AchievementsScreen from '../screens/AchievementsScreen';
+import Colors from '../constants/Colors';
 
 const TodayTodoStack = createStackNavigator({
   TodayTodo: TodayTodoScreen,
@@ -57,4 +58,8 @@ export default createBottomTabNavigator({
   TodayTodoStack,
   CalendarStack,
   AchievementsStack,
+},{
+  tabBarOptions: {
+    activeTintColor: Colors.tabIconSelected,
+  },
 });

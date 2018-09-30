@@ -168,7 +168,7 @@ const styles = StyleSheet.create({
   },
   tabBarInfoText: {
     fontSize: 17,
-    color: 'rgba(96,100,109, 1)',
+    color: 'orange',
     textAlign: 'center',
   },
   navigationFilename: {
@@ -183,6 +183,6 @@ const styles = StyleSheet.create({
   },
   helpLinkText: {
     fontSize: 14,
-    color: '#2e78b7',
+    color: 'orange',
   },
 });
